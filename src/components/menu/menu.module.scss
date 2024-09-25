@@ -1,0 +1,15 @@
+.menu {
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+
+    li{
+        display: block;
+        margin-right: 20px;
+        border-radius: 50;
+        background-color: aqua;
+    }
+};
