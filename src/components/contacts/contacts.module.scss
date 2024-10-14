@@ -1,0 +1,24 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & a{
+       color: rgb(12, 0, 114);
+    }
+}
+
+.viber {
+    width: 20px;
+    height: 20px;
+}
+
+.whatsapp {
+    width: 20px;
+    height: 20px;
+}
+
+.linkContact{
+    display: flex;
+    flex-direction: row;
+}

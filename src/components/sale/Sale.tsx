@@ -1,11 +1,15 @@
 'use client';
+import Image from 'next/image';
 import scss from '../sale/sale.module.scss'; 
+import banner from '../../content/images/banner1.webp';
 
 
 const Sale = () => {
     return (
         <div className={scss.sale}>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta eaque harum recusandae ipsum unde voluptatibus excepturi ab non. Quibusdam aperiam fugit iure voluptate suscipit facere atque at explicabo necessitatibus aspernatur?</p>
+            <div className={scss.thumb}>
+                <Image src={ banner} alt='Ukraine' className={scss.bannerImage}/>
+            </div>
         </div>
     );
 }
