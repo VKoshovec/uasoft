@@ -1,0 +1,22 @@
+.help{
+    display: flex;
+    justify-content: space-between;
+
+    li{
+        font-size: 20px;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: block;
+        margin-right: 20px;
+        border-radius: 50;
+        color: rgb(12, 0, 114);
+
+        margin-left: auto;
+        margin-right: auto;
+        // font-family: arimo500;
+    };
+
+    li:nth-last-child(1){
+        margin-left: 10px;
+    }
+}
